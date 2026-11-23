@@ -18,6 +18,12 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
+## Project tooling
+
+- Run `npm run lint` to check the project with ESLint and the Next.js recommended rules.
+- Husky runs `lint-staged` before commits to lint staged JavaScript and TypeScript files.
+- Tailwind CSS v4 is configured through PostCSS. Material UI is configured for the App Router, including server-side style collection and CSS layer ordering for Tailwind utilities.
+
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
 ## Learn More
